@@ -9,6 +9,19 @@
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6679c0921286a90019bc6520&product=inline-share-buttons&source=platform" async="async"></script>
 </head>
 <body>
+    <header>
+        <form>
+            <div class="recordar">
+              <label for="recordarnombre">Ingresa tu nombre:</label>
+              <input id="enviarnombre" type="text" required>
+              <input id="recordarnombre" type="submit" value="Decir hola">
+            </div>
+            <div class="olvidar">
+              <label for="olvidarnombre">Queres que me olvide?</label>
+              <input id="olvidarnombre" type="reset" value="Olvidar">
+            </div>
+          </form>
+    </header>
     <nav class="navbar container">
         <div class="left">
             <ul>
@@ -25,6 +38,9 @@
             </ul>
         </div>
     </nav>
+    <div class="saludo-container">
+        <p class="saludo">Welcome to our website.</p>
+    </div>
     <div class="swiper mySwiper container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">

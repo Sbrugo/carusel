@@ -56,3 +56,25 @@ li a{
     margin-bottom: 5px;
     color: #222222;
 }
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #64a5f5;
+    color: black;
+    font-size: 18px;
+}
+header form{
+    display: flex;
+    padding: 15px;
+}
+header form div {
+    padding-right: 15px;
+}
+.saludo-container{
+    display: flex;
+    justify-content: left;
+}
+.saludo{
+    padding: 15px;
+    font-size: 18px;
+}
